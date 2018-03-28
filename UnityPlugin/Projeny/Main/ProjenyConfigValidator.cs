@@ -73,7 +73,7 @@ namespace Projeny.Internal
                             continue;
                         }
 
-                        if (pluginNameLowered == "android" || pluginNameLowered == "webgl")
+                        /*if (pluginNameLowered == "android" || pluginNameLowered == "webgl")
                         {
                             foreach (var platformDir in pluginDir.GetDirectories())
                             {
@@ -81,7 +81,7 @@ namespace Projeny.Internal
                             }
 
                             continue;
-                        }
+                        }*/
 
                         CheckJunction(pluginDir, badDirectories, brokenJunctions);
                     }
